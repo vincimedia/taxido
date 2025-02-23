@@ -1,0 +1,3 @@
+name,min_per_unit_charge,max_per_unit_charge,commission_rate,tax_id,status,vehicle_image,vehicle_map_icon_url,services,service_categories,hourly_packages
+Sedan,10.00,20.00,5.0,1,1,https://example.com/images/sedan.png,https://example.com/icons/sedan_icon.png,1,2,3,4
+

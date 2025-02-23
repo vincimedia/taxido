@@ -1,0 +1,22 @@
+Instructions for Bulk Import - Riders
+
+-------------------------------------------------------------------
+Rider Data Format
+-------------------------------------------------------------------
+
+
+1. name: (Required) Enter the rider's full name. Maximum 255 characters allowed.
+
+2. username: (Required) Enter the rider's username. It must be unique.
+
+3. email: (Required) Enter the rider's email address. It must be unique.
+
+4. country_code: (Required) Enter the rider's country code (e.g., "+1" for the USA, "+44" for the UK).
+
+5. phone: (Required) Enter the rider's phone number. It must be unique and have between 6 to 15 digits.
+
+6. password: (Required) Enter the rider's password. Minimum 8 characters.
+
+7. status: (Required) Set the rider's status. It could be '1' for active or '0' for inactive.
+
+8. profile_image: (Optional) Provide a URL for the rider's profile image (if available). If not, leave it blank.

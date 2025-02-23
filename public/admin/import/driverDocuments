@@ -1,0 +1,18 @@
+Instructions for Bulk Import - DriverDocuments
+
+-------------------------------------------------------------------
+DriverDocument Data Format
+-------------------------------------------------------------------
+
+
+1. driver_id: (Required) Enter the ID of the driver. The driver ID must exist in the database.
+
+2. document_id: (Required) Enter the ID of the document. The document ID must exist in the database.
+
+3. document_no: (Required) Enter the document number (such as license number or any document identifier).
+
+4. document_image: (Optional) Provide the URL of the document image (if applicable). If not provided, it will be left blank.
+
+5. status: (Required) Set as '1' for active or '0' for inactive to determine the document's status.
+
+

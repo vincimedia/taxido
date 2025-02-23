@@ -1,0 +1,11 @@
+{
+    "name": "Firebase",
+    "alias": "firebase",
+    "description": "Firebase is a platform for building and managing mobile and web applications.",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\Firebase\\Providers\\FirebaseServiceProvider"
+    ],
+    "files": []
+}

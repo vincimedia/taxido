@@ -1,0 +1,29 @@
+Instructions for Bulk Import - VehicleTypes
+
+-------------------------------------------------------------------
+Vehicle Types Data Format
+-------------------------------------------------------------------
+
+
+Vehicle Types Data Format
+1. name: (Required) Enter the name of the vehicle type. Maximum 255 characters allowed. The name must be unique.
+
+2. min_per_unit_charge: (Required) Enter the minimum charge per unit for the vehicle type. It should be a numeric value.
+
+3. max_per_unit_charge: (Required) Enter the maximum charge per unit for the vehicle type. It should be a numeric value.
+
+4. commission_rate: (Required) Enter the commission rate applied to the vehicle type. It should be a numeric value.
+
+5. tax_id: (Required) Enter the ID of the tax associated with the vehicle type. This must exist in the taxes table (refer to the valid tax IDs in your system).
+
+6. status: (Required) Set as '0' for inactive or '1' for active to determine the vehicle type's status.
+
+7. vehicle_image: (Optional) Provide the URL to the vehicle image. If no image is provided, the vehicle type will have a default image.
+
+8. vehicle_map_icon: (Optional) Provide the URL to the map icon for the vehicle type. If no icon is provided, the vehicle type will have a default map icon.
+
+9. services: (Optional) Provide a comma-separated list of service IDs that this vehicle type supports.
+
+10. service_categories: (Optional) Provide a comma-separated list of service category IDs that this vehicle type is associated with.
+
+11. hourly_packages: (Optional) Provide a comma-separated list of hourly package IDs that apply to this vehicle type.

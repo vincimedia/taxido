@@ -1,0 +1,30 @@
+{
+    "name": "nwidart/firebase",
+    "description": "",
+    "authors": [
+        {
+            "name": "Nicolas Widart",
+            "email": "n.widart@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\Firebase\\": "app/",
+            "Modules\\Firebase\\Database\\Factories\\": "database/factories/",
+            "Modules\\Firebase\\Database\\Seeders\\": "database/seeders/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Modules\\Firebase\\Tests\\": "tests/"
+        }
+    }
+}
